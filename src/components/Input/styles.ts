@@ -31,7 +31,8 @@ export const Container = styled.div<ContainerProps>`
         flex:1;
         border:0;
         padding-right:5px;
-        
+        width:100%;
+        max-width:100%;
         &:active{
             background:transparent;
         }
